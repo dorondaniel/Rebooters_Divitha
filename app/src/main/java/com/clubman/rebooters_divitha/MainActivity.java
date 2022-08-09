@@ -29,9 +29,14 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Editable stu_name = name.getText();
                 Editable stu_dept = dept.getText();
-
-                Toast output = Toast.makeText(getApplicationContext(),"Welcome "+stu_name+" From "+stu_dept,Toast.LENGTH_LONG);
-                output.show();
+                if(!stu_name.equals() == "" && !stu_dept.equals() == ""){
+                    Toast output = Toast.makeText(getApplicationContext(),"Welcome "+stu_name+" From "+stu_dept,Toast.LENGTH_LONG);
+                    output.show(); 
+                }
+                else{
+                    Toast error = Toast.makeText(getApplicationContext(),"Enter Valid Data",Toast.LENGTH_LONG);
+                    error.show();
+                }
             }
         });
     }
