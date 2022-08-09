@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Rebooters_Divitha</string>
+    <string name="log_in">LOG-IN</string>
+    <string name="student_name">Student Name</string>
+    <string name="department">Department</string>
+    <string name="submit">SUBMIT</string>
+</resources>

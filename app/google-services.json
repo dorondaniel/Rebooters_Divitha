@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1084208616887",
+    "project_id": "rebooters-divitha",
+    "storage_bucket": "rebooters-divitha.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1084208616887:android:5e5533878afb069e0b8432",
+        "android_client_info": {
+          "package_name": "com.clubman.rebooters_divitha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1084208616887-8gftf4m5ihil3h83f7jk4pkjobcspj8p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8ka67YyF_RWw61FDNQcQWT9selj6noAQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1084208616887-8gftf4m5ihil3h83f7jk4pkjobcspj8p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
